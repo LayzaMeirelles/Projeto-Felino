@@ -24,9 +24,9 @@ header{
 }
 header img{
   width: 75.2px;
-  height: 62;
-  margin-left: 82px;
-  margin-top: 23px;
+  height: 62px;
+  margin-left: 87px;
+  margin-top: 20px;
 
 }
 
@@ -66,7 +66,7 @@ header a:hover{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 60px;
 }
 
@@ -86,6 +86,7 @@ article{
   margin-top: 70px;
   font-family:"Amatic SC", sans-serif;
   font-size: 30px;
+  margin-bottom: 50px;
 }
 
 #inicio p{
@@ -95,4 +96,35 @@ article{
 #inicio a{
   text-decoration: none;
   color: var(--cor3);
+}
+
+.historico{
+  background-color: var(--cor3);
+}
+
+#historia h2{
+  text-align: center;
+  font-family:"Amatic SC", sans-serif;
+  font-size: 40px;
+  color: #efb07d;
+  text-shadow: 1px 1px 5px #e7924b;
+  margin-bottom: 50px;
+}
+
+#historia p{
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+#historia #margemMaior{
+  margin-bottom: 50px;
+}
+
+.enfeite{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75.2px;
+  height: 62px;
 }
